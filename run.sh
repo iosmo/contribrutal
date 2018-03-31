@@ -10,3 +10,4 @@ do
     echo "$i" > playdoh.txt
     git commit -am "Update file with $i"
 done
+git push
