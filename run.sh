@@ -8,6 +8,7 @@ max=$1
 for i in `seq 1 $max`
 do
     echo "$i" > playdoh.txt
-    git commit -am "Update file with $i"
+    git add playdoh.txt
+    git commit -m "Update file with $i"
 done
 git push
