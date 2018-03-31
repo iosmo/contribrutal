@@ -4,6 +4,8 @@ if [ $# -eq 0 ] ; then
     exit
 fi
 
+cd /Users/liamelmore/Documents/Playground/Contribrutal/contribrutal
+
 max=$1
 for i in `seq 1 $max`
 do
