@@ -5,5 +5,3 @@ do
     echo "$i" > playdoh.txt
     git commit -am "Update file with $i"
 done
-#echo '1' > playdoh.txt
-#cat playdoh.txt
