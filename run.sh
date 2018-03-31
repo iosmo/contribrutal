@@ -1,10 +1,9 @@
 #!/bin/sh
-max=100
+max=2
 for i in `seq 1 $max`
 do
-    echo "$i"
     echo "$i" > playdoh.txt
+    git commit -am "Update file with $i"
 done
-
 #echo '1' > playdoh.txt
-cat playdoh.txt
+#cat playdoh.txt
