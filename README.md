@@ -1,6 +1,6 @@
 # Contribrutal
 
-A wee shell script to automate a git repo to prove your commits do not only reflect your overall contriubtion to an employer/team.
+A wee shell script to automate a git repo to prove your commits do not only reflect your overall contribution to an employer/team.
 
 
 Simple execution:
